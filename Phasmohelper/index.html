@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phasmophobia Ghost Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PhasHelper</h1>
+  
+<div id="filters">
+    <h3>Filters</h3>
+
+    <label>Min Speed:
+        <input type="number" id="minSpeed" step="0.1" placeholder="e.g. 1.5">
+    </label>
+
+    <label>Max Speed:
+        <input type="number" id="maxSpeed" step="0.1" placeholder="e.g. 2.0">
+    </label>
+
+    <label>Max Hunt Sanity:
+        <input type="number" id="maxSanity" placeholder="e.g. 60">
+    </label>
+
+    <fieldset>
+        <legend>Evidence (max 3)</legend>
+        <div id="evidence-buttons"></div>
+    </fieldset>
+<hr>
+<div id="ghost-list"></div>
+<script src="script.js"></script>
+</body>
+</html>

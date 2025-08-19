@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Spirit",
+        "evidence": ["EMF 5", "Spirit Box", "Ghost Writing"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "No unique strengths. Smudge sticks stop it hunting for 180s instead of 90s."
+    },
+    {
+        "name": "Wraith",
+        "evidence": ["EMF 5", "Spirit Box", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Does not leave footprints when stepping in salt. Can teleport near players."
+    },
+    {
+        "name": "Phantom",
+        "evidence": ["Spirit Box", "Ultraviolet", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Looking at it drains sanity faster. Disappears briefly when taking a photo."
+    },
+    {
+        "name": "Poltergeist",
+        "evidence": ["Spirit Box", "Ultraviolet", "Ghost Writing"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Can throw multiple objects at once, draining more sanity."
+    },
+    {
+        "name": "Banshee",
+        "evidence": ["Ultraviolet", "Ghost Orbs", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Prefers a single target until they leave or die. Unique scream on parabolic mic."
+    },
+    {
+        "name": "Jinn",
+        "evidence": ["EMF 5", "Ultraviolet", "Freezing Temps"],
+        "speed": 2.5,
+        "speedCategory": "Fast",
+        "huntSanity": 50,
+        "behavior": "Moves faster if far from players and breaker is on. Cannot turn breaker off."
+    },
+    {
+        "name": "Mare",
+        "evidence": ["Spirit Box", "Ghost Orbs", "Ghost Writing"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 60,
+        "behavior": "Prefers darkness. More likely to turn off lights."
+    },
+    {
+        "name": "Revenant",
+        "evidence": ["Ghost Orbs", "Ghost Writing", "Freezing Temps"],
+        "speed": 1.0,
+        "speedCategory": "Slow",
+        "huntSanity": 50,
+        "behavior": "Very slow when not chasing, but extremely fast when a player is visible."
+    },
+    {
+        "name": "Shade",
+        "evidence": ["EMF 5", "Ghost Writing", "Freezing Temps"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 35,
+        "behavior": "Shy ghost. Less likely to hunt with multiple players nearby."
+    },
+    {
+        "name": "Demon",
+        "evidence": ["Ultraviolet", "Ghost Writing", "Freezing Temps"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 70,
+        "behavior": "Can hunt at higher sanity than most ghosts. Smudge sticks reduce hunt for only 60s."
+    },
+    {
+        "name": "Yurei",
+        "evidence": ["Ghost Orbs", "Freezing Temps", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Strong sanity drain ability. Can close doors fully."
+    },
+    {
+        "name": "Oni",
+        "evidence": ["EMF 5", "Freezing Temps", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "More active when players nearby. Throws objects with more force."
+    },
+    {
+        "name": "Hantu",
+        "evidence": ["Ghost Orbs", "Ultraviolet", "Freezing Temps"],
+        "speed": 1.4,
+        "speedCategory": "Slow",
+        "huntSanity": 50,
+        "behavior": "Faster in colder rooms, slower in warmer ones. Freezing breath visible during hunts."
+    },
+    {
+        "name": "Yokai",
+        "evidence": ["Spirit Box", "Ghost Orbs", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 80,
+        "behavior": "Talking near it can trigger hunts. Limited hearing during hunts."
+    },
+    {
+        "name": "Goryo",
+        "evidence": ["EMF 5", "Ultraviolet", "DOTS Projector"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "DOTS only visible through camera when no players are near."
+    },
+    {
+        "name": "Myling",
+        "evidence": ["EMF 5", "Ultraviolet", "Ghost Writing"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Quieter footsteps during hunts. More frequent parabolic sounds."
+    },
+    {
+        "name": "Onryo",
+        "evidence": ["Spirit Box", "Ghost Orbs", "Freezing Temps"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 60,
+        "behavior": "Can hunt when extinguishing a flame. Treats extinguished fire as a hunt chance."
+    },
+    {
+        "name": "The Twins",
+        "evidence": ["EMF 5", "Spirit Box", "Freezing Temps"],
+        "speed": 1.5,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Two ghosts act independently. One moves slightly faster, the other slower."
+    },
+    {
+        "name": "Raiju",
+        "evidence": ["EMF 5", "Ghost Orbs", "DOTS Projector"],
+        "speed": 2.5,
+        "speedCategory": "Fast",
+        "huntSanity": 65,
+        "behavior": "Moves faster near active electronics. Can disrupt electrical equipment."
+    },
+    {
+        "name": "Obake",
+        "evidence": ["EMF 5", "Ultraviolet", "Ghost Orbs"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Fingerprints have unique patterns and may disappear quicker. Rarely shapeshifts during hunts."
+    },
+    {
+        "name": "The Mimic",
+        "evidence": ["Spirit Box", "Ultraviolet", "Freezing Temps", "Ghost Orbs (fake)"],
+        "speed": 1.7,
+        "speedCategory": "Medium",
+        "huntSanity": 50,
+        "behavior": "Mimics abilities and traits of other ghosts. Always shows fake Ghost Orbs."
+    },
+    {
+        "name": "Moroi",
+        "evidence": ["Spirit Box", "Ghost Writing", "Freezing Temps"],
+        "speed": 2.25,
+        "speedCategory": "Fast",
+        "huntSanity": 50,
+        "behavior": "Curses players through Spirit Box, increasing sanity drain. Moves faster at lower player sanity."
+    },
+    {
+        "name": "Deogen",
+        "evidence": ["Spirit Box", "Ghost Writing", "DOTS Projector"],
+        "speed": 3.0,
+        "speedCategory": "Fast",
+        "huntSanity": 40,
+        "behavior": "Always knows player location. Moves very fast when far, extremely slow when close."
+    },
+    {
+        "name": "Thaye",
+        "evidence": ["Ghost Orbs", "Ghost Writing", "DOTS Projector"],
+        "speed": 2.75,
+        "speedCategory": "Fast",
+        "huntSanity": 75,
+        "behavior": "Very aggressive when young, slows down and weakens with time in the area."
+    }
+]
