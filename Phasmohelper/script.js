@@ -13,7 +13,6 @@ async function loadGhosts() {
     const res = await fetch('ghosts.json');
     ghosts = await res.json();
 
-
     const evidenceButtons = document.getElementById('evidence-buttons');
     evidences.forEach(e => {
         const btn = document.createElement('button');
@@ -70,8 +69,6 @@ function applyFilters() {
 
 function displayGhosts(list) {
     const ghostList = document.getElementById('ghost-list');
-
-
     const oldCards = ghostList.querySelectorAll('.ghost-card');
     oldCards.forEach(card => card.classList.add('fade-out'));
 
@@ -99,6 +96,7 @@ function displayGhosts(list) {
         });
     }, 400);
 }
+
 function updateEvidenceButtons(filteredGhosts, selectedEvidences) {
     const buttons = document.querySelectorAll('.evidence-btn');
 
