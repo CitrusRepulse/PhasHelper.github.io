@@ -10,7 +10,7 @@ const evidences = [
 ];
 
 async function loadGhosts() {
-    const res = await fetch('ghosts.json');
+    const res = await fetch('Phasmohelper/ghosts.json');
     ghosts = await res.json();
 
     const evidenceButtons = document.getElementById('evidence-buttons');
