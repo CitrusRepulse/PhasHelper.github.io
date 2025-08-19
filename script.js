@@ -9,7 +9,7 @@ const evidences = [
     "Ultraviolet"
 ];
 
-const ASSET_BASE = 'Phasmohelper/';
+const ASSET_BASE ='';
 
 async function loadGhosts() {
   try {
