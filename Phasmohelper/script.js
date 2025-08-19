@@ -9,20 +9,29 @@ const evidences = [
     "Ultraviolet"
 ];
 
+const ASSET_BASE = 'Phasmohelper/';
+
 async function loadGhosts() {
-    const res = await fetch('Phasmohelper/ghosts.json');
+  try {
+    const res = await fetch(`${ASSET_BASE}ghosts.json`, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to fetch ghosts.json: HTTP ${res.status}`);
     ghosts = await res.json();
 
     const evidenceButtons = document.getElementById('evidence-buttons');
     evidences.forEach(e => {
-        const btn = document.createElement('button');
-        btn.textContent = e;
-        btn.className = "evidence-btn";
-        btn.onclick = () => toggleEvidence(btn, e);
-        evidenceButtons.appendChild(btn);
+      const btn = document.createElement('button');
+      btn.textContent = e;
+      btn.className = "evidence-btn";
+      btn.onclick = () => toggleEvidence(btn, e);
+      evidenceButtons.appendChild(btn);
     });
 
     displayGhosts(ghosts);
+  } catch (err) {
+    console.error('loadGhosts error:', err);
+    const ghostList = document.getElementById('ghost-list');
+    if (ghostList) ghostList.innerHTML = `<p>Kunde inte ladda <code>ghosts.json</code> (${err.message}).</p>`;
+  }
 }
 
 function toggleEvidence(btn, evidence) {
